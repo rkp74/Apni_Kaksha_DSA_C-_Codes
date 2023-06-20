@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cmath>
+#include <string>
 using namespace std;
 
 string DecimalToHexadecimal(int num)
@@ -8,10 +10,10 @@ string DecimalToHexadecimal(int num)
     string ans = "";
 
     while (x <= num)
-
-        x *= 16;
-    x /= 16;
-
+    
+      x *= 16;
+      x /= 16;
+    
     while (x > 0)
     {
         int lastdigit = num / x;

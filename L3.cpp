@@ -5,7 +5,11 @@ int main() {
 
 int a;
 a = 15;
-cout<<"size of int"<<sizeof(a)<<endl;
+cout<<"size of int "<<sizeof(a)<<endl;
+
+int practice;
+practice = 34;
+cout<<"size of int " << sizeof(practice) << endl ;
 
 int rkp= 45;
 cout<<"size of int "<<sizeof(rkp)<<endl;

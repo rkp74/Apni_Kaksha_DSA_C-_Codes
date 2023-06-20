@@ -13,7 +13,8 @@ for(int date=1;date<=30;date++){
         if(Pocket_money==0){
             break;
         }
-        cout<<"Go Out Today\n";
+        
+        cout<< date << " Go Out Today\n";
         Pocket_money = Pocket_money - 300;
 
         }

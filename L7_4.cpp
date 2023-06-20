@@ -3,28 +3,22 @@ using namespace std;
 
 int main(){
 
-int n;
-int div;
-int b;
-cin>>n>>b;
+int a , b , div;
+    cin>>a>>b;
 
-for(int i=n;i<=b;i++){
-    
-for(div=2;div<n;div++){
+    for(int i = a; i <= b ; i++) {
 
-if(n%div==0){
-    break;
-}
+        for(div = 2 ; div < i ; div++) {
 
-}
-
-if(n==div){
-cout<<n<<endl;
-}
- 
- n = n+1;
-
-}
+            if(i % div == 0)
+            {
+              break;
+            
+            } 
+        }
+        if ( i == div){
+        cout << i <<"\n"; }
+    }
 
 }
 

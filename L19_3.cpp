@@ -1,9 +1,9 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 using namespace std;
 
 int BinarySearch(int arr[], int n, int key)
-{
-    // s stands for starting element and e stands for ending element.
+{// s stands for starting element and e stands for ending element.
     int s = 0, e = n;
 
     while (s <= e)
@@ -33,7 +33,7 @@ int main()
     cin >> n;
 
     int array[n];
-    cout<<"Provide the Array in Sorted Order."
+    cout<<"Provide the Array in Sorted Order." ;
     for (int i = 0; i < n; i++)
     {
         cin >> array[i];

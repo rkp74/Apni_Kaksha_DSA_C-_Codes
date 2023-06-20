@@ -1,5 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cmath>
+#include <string>
 using namespace std;
+
 
 string DecimalToHexadecimal(int num)
 {

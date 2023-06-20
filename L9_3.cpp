@@ -5,10 +5,10 @@ int main(){
 
 // Calculate the Modular Value of |a-b|
  
- int a,b;
+ int a,b,c;
  cin>>a>>b;
 
- int c = a>b ? a-b : b-a;
+ c = a>b ? a-b : b-a;
 
  cout<<c<<endl;
 

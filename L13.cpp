@@ -4,24 +4,21 @@ using namespace std;
 
 int main(){
 
-int n;
+int n,div;
 cin>>n;
 
-for(int div=2;div<=sqrt(n);div++){
+for( div=2;div<=sqrt(n);div++){
 
-if(n%div==0){
+if(n % div == 0){
 
     cout<<"Number is Not Prime";
-    break;
-} else {
-
-cout<<"Number is Prime";
-break;
-}
+    break ;
+} 
 
 }
 
-
-
+if(sqrt(n)<div){
+cout<<"Number is Prime\n";
+}
 
 }

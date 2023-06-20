@@ -1,4 +1,6 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cmath>
+#include <string>
 using namespace std;
 
 // BTD stands for Binary To Decimal.
