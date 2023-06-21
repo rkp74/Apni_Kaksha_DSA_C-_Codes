@@ -3,15 +3,22 @@ using namespace std;
 
 bool PairSum(int n, int arr[], int k)
 {
-    for (int i = 0; i < n; i++)
+
+    int low = 0, high = n - 1;
+    while (low < high)
     {
-        for (int j = i + 1; j < n; j++)
+        if (arr[low] + arr[high] == k)
         {
-            if (arr[i] + arr[j] == k)
-            {
-                cout << i << " " << j << endl;
-                return true;
-            }
+            cout << low << " " << high << endl;
+            return true;
+        }
+        else if (arr[low] + arr[high] > k)
+        {
+            high--;
+        }
+        else
+        {
+            low++;
         }
     }
     return false;
